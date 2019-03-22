@@ -58,6 +58,7 @@ according to your preferences.
 
 ## Formatting
 
+You may want to use [editorconfig.org](http://editorconfig.org/) to enforce the formatting settings in your editor. Use the [Node.js Style Guide .editorconfig file](.editorconfig) to have indentation, newslines and whitespace behavior automatically set to the rules set up below.
 
 ### 2 Spaces for indentation
 
@@ -166,7 +167,7 @@ while (keys.length) {
 
 [crockfordconvention]: http://javascript.crockford.com/code.html
 
-### Naming Conventions
+## Naming Conventions
 
 ### Use lowerCamelCase for variables, properties and function names
 
@@ -204,7 +205,7 @@ function bank_Account() {
 }
 ```
 
-## Use UPPERCASE for Constants
+### Use UPPERCASE for Constants
 
 Constants should be declared as regular variables or static class properties,
 using all uppercase letters.
@@ -445,7 +446,7 @@ User
   .exec(function(err, user) {
     return true;
   });
-````
+```
 
 *Wrong:*
 
@@ -472,7 +473,7 @@ User.findOne({ name: 'foo' }).populate('bar')
   .exec(function(err, user) {
     return true;
   });
-````
+```
 
 ## Comments
 
